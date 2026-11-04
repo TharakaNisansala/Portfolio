@@ -14,7 +14,7 @@ export const profile = {
   phone: '+94 70 571 8956',
   linkedin: 'https://www.linkedin.com/in/tharaka-balasooriya-538890243/',
   github: 'https://github.com/TharakaNisansala',
-  resume: '/Tharaka_Balasooriya.pdf',
+  resume: '/Tharaka_Nisansala_Balasooriya.pdf',
   summary: 'Computer Science graduate with a strong foundation in object-oriented programming and hands-on experience across full-stack development, REST API design, database-driven applications, and AI/LLM-powered features using React.js, TypeScript, Node.js, Express.js, Python, and SQL.',
 }
 
