@@ -51,7 +51,7 @@ h1 { max-width: 760px; margin-bottom: 24px; font-size: clamp(40px, 5.2vw, 66px);
 .hero-aside { position: relative; justify-self: end; width: min(390px, 100%); animation: rise .9s .15s cubic-bezier(.2, .7, .2, 1) both; }
 .portrait-wrap { width: 100%; aspect-ratio: 1 / 1.14; background: var(--soft-accent); overflow: hidden; }
 .portrait-wrap img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 18%; filter: saturate(.85) contrast(1.03); }
-.now-card { position: relative; margin: -46px 0 0 -38px; padding: 16px 18px; border-left: 2px solid var(--accent); background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(8px); box-shadow: 0 18px 40px -26px rgba(10, 30, 28, .45); }
+.now-card { margin: 18px 0 0; padding: 14px 18px; border-left: 2px solid var(--accent); background: var(--surface); }
 .now-card div { display: grid; grid-template-columns: 74px 1fr; gap: 10px; }
 .now-card div + div { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line); }
 .now-card dt { color: var(--accent); font: 500 10px/1.7 var(--mono); text-transform: uppercase; letter-spacing: .08em; }
@@ -213,7 +213,6 @@ footer a:hover { color: var(--accent); }
   .hero { grid-template-columns: 1fr .75fr; gap: 44px; }
   .project-card.is-feature { grid-template-columns: 1fr; }
   .is-feature .project-visual { min-height: 190px; border-right: 0; border-bottom: 1px solid var(--line); }
-  .now-card { margin-left: 0; }
 }
 @media (max-width: 860px) {
   .navbar { height: 68px; }
